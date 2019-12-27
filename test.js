@@ -1,5 +1,4 @@
-'use strict';
-
+var chain = '1->4->6->2->3->10->9->8->11->20->19->30';
 function compute_chain_median(collection) {
   //在这里写入代码
   var dataArray = stringToNumberArray(collection);
@@ -7,7 +6,6 @@ function compute_chain_median(collection) {
   var median = getMedianNumber(dataArray);
   return median;
 }
-
 function stringToNumberArray(collection) {
   var dataArray = collection.split('->').map(function(value) {
     return parseInt(value);
@@ -27,4 +25,5 @@ function getMedianNumber(dataArray) {
   return median;
 }
 
-module.exports = compute_chain_median;
+
+compute_chain_median(chain);
