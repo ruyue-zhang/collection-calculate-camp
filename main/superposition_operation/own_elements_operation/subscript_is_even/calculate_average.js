@@ -2,7 +2,7 @@
 var calculate_average = function(collection){
   var count = 0;
   var sum = 0;
-  for(var i = 2; i < collection.length; i += 2) {
+  for(var i = 1; i < collection.length; i += 2) {
     count++;
     sum += collection[i];
   }
