@@ -5,6 +5,7 @@ function amount_even(collection) {
   var sum = collection.reduce(function(total,currentValue) {
     return currentValue % 2 ? total : total + currentValue;
   },0);
+  return sum;
 }
 
 module.exports = amount_even;
