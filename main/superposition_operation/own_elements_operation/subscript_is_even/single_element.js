@@ -2,7 +2,7 @@
 var single_element = function(collection){
   var evenElement = getEvenElement(collection);
   var noRepeatElement = getNoRepeatElementArray(evenElement);
-  return noRepeatElement;
+  return noRepeatElement; //TODO: 变量可以inline
 };
 
 function getEvenElement(collection) {
@@ -27,7 +27,7 @@ function getNoRepeatElementArray(evenElement) {
           isExist = true;
           break;
         }
-      } 
+      }
     }
     if(!isExist) {
       noRepeatElement.push(evenElement[i]);

@@ -2,7 +2,7 @@
 var is_exist_element = function(collection,element){
   var indexIsEvevArray = getIndexEven(collection);
   return isExist(indexIsEvevArray,element);
-}
+} //TODO: 分号呢？
 
 function getIndexEven(collection) {
   var indexIsEvevArray = [];

@@ -7,6 +7,7 @@ function get_letter_interval(number_a, number_b) {
 }
 
 function getAlphabetArray() {
+  //TODO: 如果是个常量，不需要定义这个方法，可以定义全局的常量，如果只用一次，直接定义局部变量就好
   var alphabetArray = ['0','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s',
                        't','u','v','w','x','y','z'];
   return alphabetArray;

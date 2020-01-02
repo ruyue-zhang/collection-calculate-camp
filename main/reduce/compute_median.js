@@ -7,7 +7,7 @@ function compute_median(collection) {
   return median;
 }
 
-
+//TODO: 空格太多
 
 function arraySortAsc(dataArray) {
   dataArray.sort(function(a,b) {

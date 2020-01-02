@@ -8,6 +8,7 @@ function compute_chain_median(collection) {
   return median;
 }
 
+//TODO: 抽方法挺好！
 function stringToNumberArray(collection) {
   var dataArray = collection.split('->').map(function(value) {
     return parseInt(value);

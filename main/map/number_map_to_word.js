@@ -5,7 +5,7 @@ var number_map_to_word = function(collection){
   var result = collection.map(function(value) {
     return alphabetArray[value];
   });
-  return result;
+  return result; //TODO: result可以inline
 };
 
 module.exports = number_map_to_word;
