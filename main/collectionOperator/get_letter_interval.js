@@ -7,7 +7,6 @@ function get_letter_interval(number_a, number_b) {
   else {
     return getLetterByInputNumber(number_b, number_a).reverse();
   }
-  
 }
 
 function getLetterByInputNumber(min, max) {
