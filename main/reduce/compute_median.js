@@ -1,13 +1,9 @@
 'use strict';
 
 function compute_median(collection) {
-  //在这里写入代码
   arraySortAsc(collection);
-  var median = getMedianNumber(collection);
-  return median;
+  return getMedianNumber(collection);
 }
-
-
 
 function arraySortAsc(dataArray) {
   dataArray.sort(function(a,b) {

@@ -1,11 +1,9 @@
 'use strict';
 
 function compute_chain_median(collection) {
-  //在这里写入代码
   var dataArray = stringToNumberArray(collection);
   arraySortAsc(dataArray);
-  var median = getMedianNumber(dataArray);
-  return median;
+  return getMedianNumber(dataArray);
 }
 
 function stringToNumberArray(collection) {
@@ -23,8 +21,7 @@ function arraySortAsc(dataArray) {
 
 function getMedianNumber(dataArray) {
   var len = dataArray.length;
-  var median = len % 2 ? dataArray[Math.floor(len / 2)] : (dataArray[len / 2] + dataArray[len / 2 - 1]) / 2;
-  return median;
+  return  len % 2 ? dataArray[Math.floor(len / 2)] : (dataArray[len / 2] + dataArray[len / 2 - 1]) / 2;
 }
 
 module.exports = compute_chain_median;
