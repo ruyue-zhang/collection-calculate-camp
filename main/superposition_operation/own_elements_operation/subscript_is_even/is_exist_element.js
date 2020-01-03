@@ -2,7 +2,7 @@
 var is_exist_element = function(collection,element){
   var indexIsEvevArray = getIndexEven(collection);
   return isExist(indexIsEvevArray,element);
-}
+};
 
 function getIndexEven(collection) {
   var indexIsEvevArray = [];
@@ -21,4 +21,5 @@ function isExist(indexIsEvevArray,element) {
   });
   return isExist;
 }
+
 module.exports = is_exist_element;

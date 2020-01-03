@@ -1,8 +1,8 @@
 'use strict';
+
 var single_element = function(collection){
   var evenElement = getEvenElement(collection);
-  var noRepeatElement = getNoRepeatElementArray(evenElement);
-  return noRepeatElement;
+  return getNoRepeatElementArray(evenElement);
 };
 
 function getEvenElement(collection) {
@@ -35,7 +35,5 @@ function getNoRepeatElementArray(evenElement) {
   }
   return noRepeatElement;
 }
-
-
 
 module.exports = single_element;
